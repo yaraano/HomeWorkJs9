@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container d-flex">
+    <div class="d-flex flex-column gap-3">
+        <h2>Search Star Wars character by ID</h2>
+        <div>
+            <input type="text" id="input" placeholder="Enter id">
+            <button id="submit"  style="width: 100px">Submit</button>
+        </div>
+        <div>
+            <h2>Person</h2>
+            <p id="name"></p>
+            <p  id="color"></p>
+
+        </div>
+        <div>
+            <h2>Vehicle</h2>
+            <p id="vehicle"></p>
+            <p id="model"></p>
+            <p id="manufacturer"></p>
+        </div>
+    </div>
+    <div>
+        <h2>Search random cat photo/gif</h2>
+        <button id="search"> Search</button>
+        <div id="image" class="cat"></div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

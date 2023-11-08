@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    background: white;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.container {
+    gap: 300px;
+    max-width: 900px;
+    margin-top: 350px;
+}
+.cat img {
+    margin-top: 60px;
+    object-fit: contain;
+    width: 100%;
+    max-height: 400px;
+}
